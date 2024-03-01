@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="unknown" contextmenu="false">
+    <meta http-equiv="refresh" content="refresh" contextmenu="false">
+    <link rel="stylesheet" type="text/css" href="alarm.css" contextmenu="true">
+    <link rel="stylesheet" href="Codehim - Free Web Design Code & Scripts">
+    <title>Alarm Clock</title>
+</head>
+<body>
+    <div class="table clock-wrapper">
+        <div class="cell">
+          <h2 id="clock" class="clock"></h2>
+          <select id="hours"></select>
+          <select id="minutes"></select>
+          <select id="seconds"></select>
+          <select id="ampm">
+            <option value="AM">AM</option>
+            <option value="PM">PM</option>
+          </select>
+          <p>
+            <button id="snooze" class="hide">Snooze</button>
+            <button id="startstop">Set Alarm</button>
+          </p>
+        </div>
+      </div>
+      <script src="alarm.js"></script>
+</body>
+</html>
